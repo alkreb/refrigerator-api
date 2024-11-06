@@ -1,0 +1,94 @@
+{
+  "fridge": [
+    {
+        "category": "dairy",
+        "type": "cheese",
+        "subtype": "deli sliced cheddar",
+        "description": "",
+        "sell_by_date": "NA",
+        "best_by_date": "12/28/2024",
+        "purchase_date": "07/01/2024",
+        "fridge_section": "middle shelf",
+        "id": 1
+      },
+      {
+        "category": "dairy",
+        "type": "milk",
+        "subtype": "2%",
+        "description": "",
+        "sell_by_date": "NA",
+        "best_by_date": "12/28/2024",
+        "purchase_date": "12/15/2024",
+        "fridge_section": "top shelf",
+        "id": 2
+      },
+      {
+        "category": "condiments",
+        "type": "salad dressing",
+        "subtype": "",
+        "description": "Ginger Dressing",
+        "sell_by_date": "2/27/2025",
+        "best_by_date": "",
+        "purchase_date": "07/01/2024",
+        "fridge_section": "door top shelf",
+        "id": 3
+      },
+      {
+        "category": "leftovers",
+        "type": "lasagna",
+        "subtype": "",
+        "description": "",
+        "Refrigeration_date": "12/14/2024",
+        "best_by_date": "12/17/2024",
+        "purchase_date": "NA",
+        "fridge_section": "middle shelf",
+        "id": 4
+      }
+     ],
+  "freezer": [
+     {
+        "category": "meal prep",
+        "type": "dinner",
+        "subtype": "burritos",
+        "description": "5 burritos prepared ahead",
+        "date_frozen": "12/28/2024",
+        "purchased_date": "NA",
+        "use_by_date": "02/28/2025",
+        "freezer_section": "top shelf",
+        "id": 1
+      },
+    {
+        "category": "produce",
+        "type": "vegetable",
+        "subtype": "frozen broccoli",
+        "description": "",
+        "date_frozen": "NA",
+        "purchased_date": "7/15/2024",
+        "use_by_date": "02/17/2026",
+        "fridge_section": "middle shelf",
+        "id": 2
+      },
+      {
+        "category": "meal prep",
+        "type": "breakfast",
+        "subtype": "quiche bites",
+        "description": "24 quiche bites prepared ahead",
+        "date_frozen": "12/1/2024",
+        "purchased_date": "NA",
+        "use_by_date": "02/01/2025",
+        "fridge_section": "top shelf",
+        "id": 3
+      },
+      {
+        "category": "leftovers",
+        "type": "chili",
+        "subtype": "",
+        "description": "",
+        "date_frozen": "12/15/2024",
+        "purchased_date": "NA",
+        "use_by_date": "01/15/2025",
+        "fridge_section": "bottom shelf",
+        "id": 4
+      }
+  ]
+ }  
