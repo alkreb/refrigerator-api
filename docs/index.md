@@ -21,12 +21,11 @@ First, complete the following tutorial to set up your development system for the
 After your system is ready, the following tutorials show you how to perform common tasks.
 
 * [Create a new fridge item _(coming soon)_](tutorials)
-* [Create a new freezer item _(coming soon)_](tutorials)
 * [Get all fridge items by "Best by" date _(coming soon)_](tutorials)
-* [Change the fridge section of a fridge item _(coming soon)_](#tutorials)
+* [Change the freezer section of a freezer item _(coming soon)_](#tutorials)
 * [Delete a freezer item _(coming soon)_](#tutorials)
 
 ## API reference docs
 
-* [fridge](api/fridge.md)
-* [freezer](api/freezer.md)
+* [fridge item resource](api/fridge.md)
+* [freezer item resource](api/freezer.md)
