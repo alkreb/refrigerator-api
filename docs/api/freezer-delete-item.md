@@ -1,0 +1,1 @@
+# Delete freezer item
