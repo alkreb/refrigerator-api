@@ -1,5 +1,5 @@
 ---
-parent: API reference documentation
+parent: API reference
 nav_order: 1
 ---
 
