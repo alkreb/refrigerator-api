@@ -1,1 +1,0 @@
-# Get a fridge item by ID
