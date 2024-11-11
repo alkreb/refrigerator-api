@@ -9,7 +9,7 @@ Base endpoint:
 
 ```shell
 
-{server_url}/freezer
+{base_url}/freezer
 ```
 
 Contains information about freezer items for the users of the service.

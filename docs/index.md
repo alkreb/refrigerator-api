@@ -28,5 +28,14 @@ After your system is ready, the following tutorials show you how to perform comm
 
 ## API reference docs
 
+Detailed descriptions of the Refrigerator API's resources.
+
+The API reference docs refer to a `{base_url}` when they
+refer to the URL of a resource. The `{base_url}` value depends
+on the installation of the service.
+
+When run locally for testing, the `{base_url}` is
+generally `http://localhost:3000`.
+
 * [fridge item resource](api/fridge.md)
 * [freezer item resource](api/freezer.md)

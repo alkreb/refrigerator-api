@@ -9,7 +9,7 @@ Base endpoint:
 
 ```shell
 
-{server_url}/fridge
+{base_url}/fridge
 ```
 
 Contains information about fridge items for the users of the service.
