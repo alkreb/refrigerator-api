@@ -1,5 +1,6 @@
 ---
 title: API reference documentation
+nav_order: 4
 ---
 
 # API reference documentation

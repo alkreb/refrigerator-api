@@ -1,3 +1,8 @@
+---
+title: Before you start a tutorial
+nav_order: 2
+---
+
 # Before you start a tutorial
 
 These are the steps you must do before you can run
