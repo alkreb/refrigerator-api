@@ -1,5 +1,6 @@
 ---
-nav_order: 2
+parent: API reference documentation
+nav_order: 1
 ---
 
 # `fridge` resource

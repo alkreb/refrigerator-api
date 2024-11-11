@@ -1,5 +1,6 @@
 ---
-nav_order: 3
+parent: API reference documentation
+nav_order: 2
 ---
 
 # `freezer` resource
