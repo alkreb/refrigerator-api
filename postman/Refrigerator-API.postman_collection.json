@@ -1,0 +1,318 @@
+{
+	"info": {
+		"_postman_id": "8fc62113-c953-4f32-9a44-229db85c0221",
+		"name": "Refrigerator API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32930388"
+	},
+	"item": [
+		{
+			"name": "fridge",
+			"item": [
+				{
+					"name": "fridge: CREATE",
+					"item": [
+						{
+							"name": "Create item",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "  {\n    \"category\": \"produce\",\n    \"type\": \"fruit\",\n    \"subtype\": \"strawberries\",\n    \"description\": \"\",\n    \"Refrigeration_date\": \"11/03/2024\",\n    \"best_by_date\": \"11/15/2024\",\n    \"purchase_date\": \"11/03/2024\",\n    \"fridge_section\": \"bottom shelf\",\n    \"id\": 5\n  }",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{base_url}}/fridge",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"fridge"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "fridge: READ",
+					"item": [
+						{
+							"name": "Get all items",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/fridge",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"fridge"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get item by id",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/fridge/1",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"fridge",
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get items by category",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/fridge?category=dairy",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"fridge"
+									],
+									"query": [
+										{
+											"key": "category",
+											"value": "dairy"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "fridge: UPDATE",
+					"item": [
+						{
+							"name": "Update item",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "  {\n    \"category\": \"dairy\",\n    \"type\": \"cheese\",\n    \"subtype\": \"deli sliced pepper jack\",\n    \"description\": \"\",\n    \"sell_by_date\": \"NA\",\n    \"best_by_date\": \"12/28/2024\",\n    \"purchase_date\": \"07/01/2024\",\n    \"fridge_section\": \"middle shelf\",\n    \"id\": 1\n  }",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{base_url}}/fridge/1",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"fridge",
+										"1"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "fridge: DELETE",
+					"item": [
+						{
+							"name": "Delete item",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/fridge/5",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"fridge",
+										"5"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "freezer",
+			"item": [
+				{
+					"name": "freezer: READ",
+					"item": [
+						{
+							"name": "Get all items",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/freezer",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"freezer"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get item by id",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/freezer/1",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"freezer",
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get items by category",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/freezer?category=meal prep",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"freezer"
+									],
+									"query": [
+										{
+											"key": "category",
+											"value": "meal prep"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "freezer: CREATE",
+					"item": [
+						{
+							"name": "New Request",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "  {\n    \"category\": \"dessert\",\n    \"type\": \"ice cream\",\n    \"subtype\": \"chocolate\",\n    \"description\": \"non-dairy chocolate ice cream\",\n    \"date_frozen\": \"12/1/2024\",\n    \"purchased_date\": \"12/1/2024\",\n    \"use_by_date\": \"02/28/2025\",\n    \"freezer_section\": \"middle shelf\",\n    \"id\": 5\n  }",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{base_url}}/freezer",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"freezer"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "freezer: UPDATE",
+					"item": [
+						{
+							"name": "Update item",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "  {\n    \"category\": \"meal prep\",\n    \"type\": \"dinner\",\n    \"subtype\": \"burritos\",\n    \"description\": \"5 burritos prepared ahead\",\n    \"date_frozen\": \"12/28/2024\",\n    \"purchased_date\": \"NA\",\n    \"use_by_date\": \"02/28/2025\",\n    \"freezer_section\": \"bottom shelf\",\n    \"id\": 1\n  }",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{base_url}}/freezer/1",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"freezer",
+										"1"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "freezer: DELETE",
+					"item": [
+						{
+							"name": "Delete item",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/freezer/5",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"freezer",
+										"5"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	]
+}
